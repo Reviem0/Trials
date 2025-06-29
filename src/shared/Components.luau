@@ -7,6 +7,8 @@ local COMPONENTS = {
 	"Model",
 	"DeleteTouched",
 	"Target",
+	"HuntVision",
+	"HuntListen",
 }
 
 local components = {}

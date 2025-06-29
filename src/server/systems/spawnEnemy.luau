@@ -4,6 +4,7 @@ local Components = require(ReplicatedStorage.Shared.Components)
 
 local function spawnEnemy(world)
 	if Matter.useThrottle(10) then
+		print("Spawning enemy")
 		local enemy = world:spawn(
 			Components.Enemy(),
 			Components.Transform({

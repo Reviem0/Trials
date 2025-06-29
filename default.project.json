@@ -15,6 +15,9 @@
     "ServerScriptService": {
       "Server": {
         "$path": "src/server"
+      },
+      "BTree_Creator": {
+        "$path": "src/BTree_Creator"
       }
     },
 
@@ -23,6 +26,12 @@
         "Client": {
           "$path": "src/client"
         }
+      }
+    },
+    "ServerStorage": {
+      "Trees": {
+        "$className": "Folder",
+        "$path": "src/trees"
       }
     },
 
@@ -62,7 +71,7 @@
         ],
         "Brightness": 2,
         "GlobalShadows": true,
-        "Outlines": false,
+        "Outlines": true,
         "Technology": "Voxel"
       }
     },
